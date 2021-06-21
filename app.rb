@@ -15,7 +15,7 @@ class App < Sinatra::Base
         @pf = params[:pf]
         @sf = params[:sf]
         @c = params[:c]
-        
+        # first oen didnt get psuhed
         erb :team 
     end
 
